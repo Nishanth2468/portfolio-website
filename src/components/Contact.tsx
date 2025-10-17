@@ -177,7 +177,7 @@ const Contact = () => {
                 <MapPin className="h-6 w-6 text-primary mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1">Location</h3>
-                  <p className="text-muted-foreground">Bachupally</p>
+                  <p className="text-muted-foreground">India Telangana</p>
                 </div>
               </div>
             </div>
