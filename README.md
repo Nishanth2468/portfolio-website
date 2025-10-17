@@ -2,7 +2,8 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/9aa60049-8641-4593-9675-194881904cec
+**GitHub Repo**: [https://github.com/Nishanth2468/portfolio-website](https://github.com/Nishanth2468/portfolio-website)
+**Lovable Project URL**: https://lovable.dev/projects/9aa60049-8641-4593-9675-194881904cec
 
 ## How can I edit this code?
 
@@ -24,13 +25,13 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone git@github.com:Nishanth2468/portfolio-website.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd portfolio-website
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
@@ -62,12 +63,16 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/9aa60049-8641-4593-9675-194881904cec) and click on Share -> Publish.
+You can deploy using Lovable or any static hosting (Vercel, Netlify, GitHub Pages, etc).
+- For Lovable: Open [Lovable](https://lovable.dev/projects/9aa60049-8641-4593-9675-194881904cec) and click Share -> Publish.
+- For Vercel/Netlify: Push to GitHub and connect your repo.
 
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+You can connect a custom domain in Lovable or your hosting provider.
+- Lovable: Project > Settings > Domains > Connect Domain
+- [Read more](https://docs.lovable.dev/features/custom-domain#custom-domain)
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
