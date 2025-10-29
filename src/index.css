@@ -4,96 +4,96 @@
 
 @layer base {
   :root {
-    /* Background & Foreground */
-    --background: 0 0% 100%;
-    --foreground: 270 50% 15%;
+    /* Background & Foreground - Light pastel blue */
+    --background: 200 40% 95%;
+    --foreground: 220 20% 20%;
     
     /* Card */
     --card: 0 0% 100%;
-    --card-foreground: 270 50% 15%;
+    --card-foreground: 220 20% 20%;
     
     /* Popover */
     --popover: 0 0% 100%;
-    --popover-foreground: 270 50% 15%;
+    --popover-foreground: 220 20% 20%;
     
-    /* Primary (Purple) - oklch(0.55 0.22 270) */
-    --primary: 270 70% 45%;
+    /* Primary (Vibrant Blue/Cyan) - oklch(0.55 0.22 270) */
+    --primary: 200 95% 55%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary (Blue) - oklch(0.75 0.18 210) */
-    --secondary: 210 65% 70%;
-    --secondary-foreground: 270 50% 15%;
+    /* Secondary (Bright Purple/Blue) - oklch(0.75 0.18 210) */
+    --secondary: 240 80% 65%;
+    --secondary-foreground: 0 0% 100%;
     
-    /* Accent (Pink/Magenta) - oklch(0.85 0.15 330) */
-    --accent: 330 65% 85%;
-    --accent-foreground: 270 50% 15%;
+    /* Accent (Cyan) - oklch(0.85 0.15 330) */
+    --accent: 190 85% 60%;
+    --accent-foreground: 0 0% 100%;
     
     /* Muted */
-    --muted: 270 20% 96%;
-    --muted-foreground: 270 30% 50%;
+    --muted: 200 30% 92%;
+    --muted-foreground: 220 15% 50%;
     
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     
     /* Border & Input */
-    --border: 270 20% 90%;
-    --input: 270 20% 90%;
-    --ring: 270 70% 45%;
+    --border: 200 25% 85%;
+    --input: 200 25% 85%;
+    --ring: 200 95% 55%;
     
     /* Radius */
     --radius: 0.625rem;
     
-    /* Custom gradients */
-    --hero-gradient-from: 270 70% 45%;
-    --hero-gradient-to: 210 65% 70%;
-    --stats-bg: 270 15% 98%;
-    --card-hover-shadow: 0 20px 50px -12px oklch(0.55 0.22 270 / 0.25);
+    /* Custom gradients - Vibrant blue to purple */
+    --hero-gradient-from: 200 95% 55%;
+    --hero-gradient-to: 240 80% 65%;
+    --stats-bg: 200 35% 97%;
+    --card-hover-shadow: 0 20px 50px -12px rgb(56 189 248 / 0.3);
   }
 
   .dark {
     /* Background & Foreground */
-    --background: 270 50% 10%;
-    --foreground: 270 20% 95%;
+    --background: 220 30% 12%;
+    --foreground: 200 20% 95%;
     
     /* Card */
-    --card: 270 40% 15%;
-    --card-foreground: 270 20% 95%;
+    --card: 220 25% 16%;
+    --card-foreground: 200 20% 95%;
     
     /* Popover */
-    --popover: 270 40% 15%;
-    --popover-foreground: 270 20% 95%;
+    --popover: 220 25% 16%;
+    --popover-foreground: 200 20% 95%;
     
-    /* Primary (Brighter Purple) - oklch(0.7 0.22 270) */
-    --primary: 270 70% 65%;
-    --primary-foreground: 0 0% 100%;
+    /* Primary (Brighter Cyan) - oklch(0.7 0.22 270) */
+    --primary: 190 90% 60%;
+    --primary-foreground: 220 30% 12%;
     
-    /* Secondary (Adjusted Blue) - oklch(0.65 0.18 210) */
-    --secondary: 210 60% 60%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary (Electric Blue) - oklch(0.65 0.18 210) */
+    --secondary: 220 80% 70%;
+    --secondary-foreground: 220 30% 12%;
     
-    /* Accent (Vibrant Pink) - oklch(0.75 0.18 330) */
-    --accent: 330 70% 70%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent (Bright Cyan) - oklch(0.75 0.18 330) */
+    --accent: 180 85% 65%;
+    --accent-foreground: 220 30% 12%;
     
     /* Muted */
-    --muted: 270 30% 25%;
-    --muted-foreground: 270 20% 65%;
+    --muted: 220 25% 22%;
+    --muted-foreground: 200 15% 65%;
     
     /* Destructive */
     --destructive: 0 75% 65%;
     --destructive-foreground: 0 0% 100%;
     
     /* Border & Input */
-    --border: 270 30% 25%;
-    --input: 270 30% 25%;
-    --ring: 270 70% 65%;
+    --border: 220 25% 25%;
+    --input: 220 25% 25%;
+    --ring: 190 90% 60%;
     
     /* Custom gradients */
-    --hero-gradient-from: 270 70% 20%;
-    --hero-gradient-to: 210 60% 25%;
-    --stats-bg: 270 40% 12%;
-    --card-hover-shadow: 0 20px 50px -12px oklch(0.7 0.22 270 / 0.5);
+    --hero-gradient-from: 220 50% 18%;
+    --hero-gradient-to: 200 45% 22%;
+    --stats-bg: 220 30% 14%;
+    --card-hover-shadow: 0 20px 50px -12px rgb(56 189 248 / 0.4);
   }
 }
 
