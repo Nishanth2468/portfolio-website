@@ -44,7 +44,7 @@ const Navigation = () => {
           {/* Logo/Name */}
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+            className="text-2xl font-bold bg-gradient-to-r from-orange-600 via-amber-500 to-emerald-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
             Portfolio
           </button>
