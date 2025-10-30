@@ -128,7 +128,7 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6 gap-3">
                   <Button
                     size="sm"
-                    className="bg-white text-foreground hover:bg-white/90"
+                    className="bg-white text-gray-900 hover:bg-gray-100 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
                     onClick={() => window.open(project.liveUrl, "_blank")}
                   >
                     <ExternalLink className="h-4 w-4 mr-2" />
@@ -137,7 +137,7 @@ const Projects = () => {
                   <Button
                     size="sm"
                     variant="outline"
-                    className="bg-white/10 text-white border-white/30 hover:bg-white/20 backdrop-blur-sm"
+                    className="bg-white/10 text-white border-white/30 hover:bg-white/20 backdrop-blur-sm dark:bg-white/20 dark:border-white/40 dark:hover:bg-white/30"
                     onClick={() => window.open(project.githubUrl, "_blank")}
                   >
                     <Github className="h-4 w-4 mr-2" />
