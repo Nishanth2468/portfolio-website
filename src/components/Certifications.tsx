@@ -82,7 +82,7 @@ const Certifications = () => {
     <section id="certifications" className="py-20 bg-[hsl(var(--stats-bg))]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fadeIn">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Certifications & Achievements</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Certifications & Achievements</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Professional certifications and recognitions demonstrating continuous learning and expertise
           </p>
@@ -100,7 +100,7 @@ const Certifications = () => {
                 <div className="text-5xl mb-2">{cert.icon}</div>
 
                 {/* Certificate Name */}
-                <h3 className="font-bold text-lg">{cert.name}</h3>
+                <h3 className="font-bold text-lg text-foreground">{cert.name}</h3>
 
                 {/* Organization */}
                 <p className="text-muted-foreground text-sm font-medium">

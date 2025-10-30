@@ -90,7 +90,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fadeIn">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Featured Projects</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Featured Projects</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Explore my latest work showcasing expertise in web development, mobile apps, and design
           </p>
@@ -148,7 +148,7 @@ const Projects = () => {
 
               {/* Project Info */}
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-foreground">{project.title}</h3>
                 <p className="text-muted-foreground mb-4 line-clamp-2">
                   {project.description}
                 </p>
