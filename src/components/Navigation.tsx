@@ -31,6 +31,19 @@ const Navigation = () => {
     }
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+    setIsMobileMenuOpen(false);
+    
+    // Trigger animation reset
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resetHeroAnimation'));
+    }, 500);
+  };
+
   const navItems = [
     { label: "Home", id: "hero" },
     { label: "Projects", id: "projects" },
@@ -50,7 +63,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo/Name */}
           <button
-            onClick={() => scrollToSection("hero")}
+            onClick={scrollToTop}
             className="text-2xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
             Portfolio
@@ -61,7 +74,7 @@ const Navigation = () => {
             {navItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => scrollToSection(item.id)}
+                onClick={() => item.id === "hero" ? scrollToTop() : scrollToSection(item.id)}
                 className="text-foreground/80 hover:text-foreground transition-colors font-medium"
               >
                 {item.label}
@@ -121,7 +134,7 @@ const Navigation = () => {
             {navItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => scrollToSection(item.id)}
+                onClick={() => item.id === "hero" ? scrollToTop() : scrollToSection(item.id)}
                 className="block w-full text-left px-4 py-2 text-foreground/80 hover:text-foreground hover:bg-muted rounded-lg transition-colors"
               >
                 {item.label}
