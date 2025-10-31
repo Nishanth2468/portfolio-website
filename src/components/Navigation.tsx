@@ -21,6 +21,13 @@ const Navigation = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setIsMobileMenuOpen(false);
+      
+      // If scrolling to hero section, trigger animation reset
+      if (id === "hero") {
+        setTimeout(() => {
+          window.dispatchEvent(new Event('resetHeroAnimation'));
+        }, 500); // Delay to allow smooth scroll to complete
+      }
     }
   };
 
